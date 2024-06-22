@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:   "Anton", sans-serif;
+    color: white;
+}
+
+:root{
+--purple-color:#5E4AF1;
+--pink-color:#BA0BF9;
+--black-color:#0C0418;
+--white-color:white;
+
+
+}
+
+html,body{
+    width: 100%;
+   height: 100%;
+ 
+background-color: #0C0418;
+}
+
+.container{
+    width: 100%;
+    padding: 0rem 4vw;
+}
+/* header styling here  */
+
+
+header{
+  
+    background: url(gradient.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    top: 0;
+   
+   
+    z-index: 999;
+}
+
+
+nav{
+    display: flex;
+   
+    justify-content: space-between;
+    padding-top:2rem ;
+
+  
+}
+
+.logo{
+   
+ font-weight:400;
+font-size: 2vmax;
+text-transform: uppercase;
+
+}
+.sec-logo{
+   
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-right: 2rem;
+    font-size: 2vmax;
+  
+  
+   
+}
+
+
+/* header styling here  */
+
+
+
+/* main text start here */
+
+.main-text{
+    margin-top: 2rem;
+}
+.main-text h1{
+    width: 100%;
+    font-size: 8vw;
+   font-weight: 300;
+ 
+   line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.main-text-para{
+    padding: 2rem 0rem;
+
+}
+  /* image-div */
+    /* image-div */
+      /* image-div */
+        /* image-div */
+
+  .image-div{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+
+  .image-div h2{
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+ 
+   width: fit-content;
+   height: fit-content;
+   margin-top: 20rem;
+   text-transform: uppercase; 
+   font-weight: 200;
+   
+   & i{
+    font-weight: 200;
+    font-size: 2rem;
+   }
+  }
+
+  
+  .image-div img{
+
+height:40vh;
+width: auto;
+ background-color: white;
+
+
+  }
+
+
+
+
+
+
+/* ---------all skills or all item section are here*/
+
+
+.all-items{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.all-items div{
+    width: 13rem;
+   
+}
+
+.all-items div h1{
+    font-size :9vw; 
+    font-weight: 300;
+}
+.all-items div  h3{
+    font-size:  2.7vw;
+    font-weight: 300;
+    line-height: 1.2;
+   
+      
+    
+}
+
+
+
+/* experience container start here */
+
+.experience{
+    width: 100%;
+    margin: 2rem 0rem;
+    border: 1px solid gray;
+    padding: 3rem 0rem;
+ 
+}
+.experience h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.experience-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-div img{
+    width: 28.8rem;
+    height: 35.5rem;
+    margin: auto;
+}
+
+
+/* /------project section start here */
+
+.project-div{
+    display: flex;
+    flex-wrap: wrap;
+     gap:2.5rem
+}
+.project-div h1{
+    text-transform: uppercase;
+    font-weight: 300;
+   
+}
+
+.project-div img{
+    width: 824px;
+    height: 608px;
+    margin: auto;
+}
+
+.btn-div{
+    align-items: center;
+    margin: auto;
+}
+#project-btn{
+
+    text-align: center;
+    background-color: #0C0418;
+    padding: .6rem 2rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 200;
+ 
+}
+
+
+/* card sectionstart here------ */
+
+
+.card-sec{
+  margin-top: 60px;
+}
+.heading{
+ display: flex;
+ justify-content: space-between;
+   
+}
+.three-cards {
+display: flex;
+width: 100%;
+
+}
+.card img{
+ padding-top: 20px;
+}
+
+/* -------------result------- */
+/* -------------result------- */
+/* -------------result------- */
+/* -------------result------- */
+
+.result{
+  margin-top: 8rem;
+ 
+}
+.result-heading{
+    text-align: center;
+    margin:3rem 0rem;
+    & h1{
+        color: #BA0BF9;
+        font-size: 4rem;
+    }
+    & p{
+      
+        margin: auto;
+        font-size: 1.5rem;
+        line-height: 33px;
+     }
+   
+}
+
+
+
+
+
+.result-cards{
+    width: 100%;
+    min-height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+
+}
+
+/* -------------result------- */
+/* -------------result------- */
+/* -------------result------- */
+/* -------------result------- */
+
+.result-right-card{
+ width: 65%;
+ background-color: black;
+ 
+    
+   
+ }
+
+.result-left-card{
+    width:32%;
+    background: linear-gradient(90deg,rgba(94, 74, 241, 0.77),
+    rgba(186, 11, 249, 0.9));
+    margin-bottom: 1rem;
+  & img{
+    width: 100%;
+  }
+}
+
+
+
+.first-card{
+    display: flex;
+    justify-content: space-between;
+ 
+    
+    background-color:#BA0BF933;
+    margin-bottom:1rem ;
+     
+}
+
+.first-card-para h2{
+   
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 3rem 1rem;
+}
+
+    .first-card-para p{
+     
+       font-size: 1.4rem;
+      padding: 3rem 1rem;
+    } 
+
+.third-para h2{
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 2rem 1rem;
+}
+.third-para p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0rem 1rem;
+}
+
+   /* -----------------footer---------- */
+
+
+
+
+   .footer-con{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    gap: 3rem;
+  
+    
+    background: linear-gradient(90deg,rgba(94, 74, 241, 0.77),
+    rgba(186, 11, 249, 0.9));
+   }
+
+
+
+   .right-footer{
+    width: 50%;
+   
+ 
+    & h1{
+        font-weight: 300;
+        text-transform: uppercase;
+        
+    }
+   }
+   
+ input{
+
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin-top:3rem;
+    margin: right;
+    background-color: transparent;
+     border: none;
+    border-bottom: 1px solid gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    color: #FEFFFF;
+    outline: none;
+ }
+ ::placeholder{
+    color: rgb(190, 186, 186);
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 18px;
+ 
+   
+
+
+ }
+ #footer-btn{
+    width: 80%;
+    height: 60px;
+    background-color:transparent;
+    border: 2px solid gray;
+    margin-top:5rem;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+ .left-footer{
+
+width: 50%;
+
+
+ }
+
+   .left-footer h1{
+    font-weight: 300;
+    text-transform: uppercase;
+  
+   }
+
+   .left-footer h4{
+    font-weight: 300;
+ 
+    text-transform: uppercase;
+    padding-top: 2rem;
+    font-weight: 300;
+   }
+
+
+   .left-footer .socail-icon{
+  
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+    margin-top: 4rem;
+    transition: 0.5s ease;
+
+    
+   }
+
+   .left-footer .socail-icon a  {
+    text-decoration: none;
+   }
+   .left-footer .socail-icon a i{
+    font-size: larger;
+    padding: 15px 15px;
+    outline: none;
+    }
+
+   .left-footer .socail-icon a i:hover{
+    border: 1px solid rgb(56, 48, 48);
+   
+   }
+
+
+   .hr{
+    width: 80%;
+    height: 2px;
+    background-color: rgba(77, 66, 66, 0.527);
+    position: absolute;
+   left: 12%;
+   bottom: 5%;
+
+   
+   }
+
+
+
+
+/* 
+      .all-items{
+        margin-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FEFFFF;
+        color: #0C0418;
+    
+
+
+
+     }
+  
+
+
+
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+
+/* .all-items{
+    margin: 0rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+   
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+body{
+background-color: #d6ec0b;
+}
+
+.manu img{
+    width: 1.4rem;
+           }
+} */
+/* 
+
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: rgb(23, 204, 113);
+        }
+
+       .manu img{
+          width: 2rem;
+        }
+        
+}
+
+
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: rgb(138, 122, 122);
+        }
+
+       
+          
+  .image-div img{
+
+    height:25rem;
+    width: auto;
+     background-color: white;
+    
+    
+      }
+} */ */
